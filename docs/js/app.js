@@ -16,6 +16,8 @@
     conditionCategory: 'All',
     selectedStratUnit: null,
     sidebarOpen: false,
+    mindMapData: null,
+    siteInputText: '',
   };
 
   // ── BOOT ───────────────────────────────────────────────────────────────────
@@ -28,6 +30,8 @@
     buildConditions();
     buildRecommendations();
     buildUncertainties();
+    buildSiteInput();
+    buildMindMap();
     activateSection('overview');
     initMobileMenu();
   });
@@ -41,6 +45,8 @@
     { id: 'conditions',   icon: '🗂️',  label: 'Conditions Database', count: D.conditions.length },
     { id: 'recommendations', icon: '🔬', label: 'GI Recommendations', count: D.recommendations.length },
     { id: 'uncertainties', icon: '❓', label: 'Uncertainty Register', count: D.uncertainties.length },
+    { id: 'siteinput', icon: '📝', label: 'Site Input',  count: null },
+    { id: 'mindmap',   icon: '🗺️',  label: 'Mind Map',   count: null },
   ];
 
   function buildNav() {
@@ -792,6 +798,138 @@
         </div>
       </div>
     `;
+  }
+
+  // ── SITE INPUT ────────────────────────────────────────────────────────────
+  function buildSiteInput() {
+    const el = document.getElementById('section-siteinput');
+    if (!el) return;
+
+    const EXAMPLE_LOG = `GROUND INVESTIGATION REPORT — COASTAL SITE
+BH01 — Borehole at Grid Ref TM 473 627
+
+0.00–0.80m: MADE GROUND. Dense sandy fill with occasional brick fragments. Likely reworked Crag sand from prior construction. Groundwater not encountered.
+
+0.80–2.50m: ALLUVIUM. Soft to very soft grey silty CLAY with peat laminations and organic odour. Water table encountered at 1.20m depth. Cu estimated 15–25 kPa.
+
+2.50–4.00m: PEAT. Highly organic, dark brown fibrous peat. Very high water content. SPT N = 0.
+
+4.00–22.00m: RED CRAG FORMATION. Loose to medium dense shelly SAND, medium to coarse grained with occasional gravel lenses and shell fragments. Slightly cemented in places. SPT N = 8–28. Groundwater level at 1.20m AOD — tidal fluctuation observed.
+
+22.00–30.00m: LONDON CLAY FORMATION. Stiff to very stiff grey-blue fissured CLAY. Overconsolidated. No free water. Cu = 120–200 kPa.
+
+Notes: Significant palaeochannel feature suspected between 2.50–4.00m. Liquefaction assessment required for Crag sand. Coastal erosion and sea level rise represent long-term geohazards.`;
+
+    el.innerHTML = `
+      <div class="section-header">
+        <h1>Site Input</h1>
+        <p class="section-subtitle">Paste borehole logs, walkover notes, desk study extracts or any site description. The processor will match geological terms against the SWEET ontology and conditions database to generate a mind map of potential conditions.</p>
+      </div>
+      <div class="siteinput-controls">
+        <textarea id="site-text-input" placeholder="Paste borehole logs, field notes, site description..." spellcheck="false"></textarea>
+        <div class="siteinput-btn-row">
+          <button class="btn-secondary" id="btn-example-log">Example Log</button>
+          <button class="btn-secondary" id="btn-clear-input">Clear</button>
+          <button class="btn-primary" id="btn-process-input">Process →</button>
+        </div>
+        <div id="siteinput-status" class="siteinput-status"></div>
+      </div>
+      <div class="sweet-info-bar">
+        <span class="sweet-badge">SWEET Ontology</span>
+        <span>Matching against ESIP SWEET geology modules: realmGeol · phenGeol · matrSediment · matrRock · realmHydro · phenHydro · phenGeolFault · realmLandform and more</span>
+      </div>
+    `;
+
+    document.getElementById('btn-example-log').addEventListener('click', () => {
+      document.getElementById('site-text-input').value = EXAMPLE_LOG;
+      state.siteInputText = EXAMPLE_LOG;
+    });
+
+    document.getElementById('btn-clear-input').addEventListener('click', () => {
+      document.getElementById('site-text-input').value = '';
+      state.siteInputText = '';
+      document.getElementById('siteinput-status').textContent = '';
+    });
+
+    document.getElementById('btn-process-input').addEventListener('click', () => {
+      const text = document.getElementById('site-text-input').value.trim();
+      if (!text) {
+        document.getElementById('siteinput-status').textContent = 'Please enter some text first.';
+        return;
+      }
+      const statusEl = document.getElementById('siteinput-status');
+      statusEl.textContent = 'Processing…';
+
+      if (typeof window.SWEETProcessor === 'undefined') {
+        statusEl.textContent = 'Error: SWEET processor not loaded. Check browser console.';
+        return;
+      }
+
+      try {
+        const result = window.SWEETProcessor.process(text);
+        state.mindMapData = result;
+        state.siteInputText = text;
+
+        // Update mind map nav badge
+        const mmNav = document.querySelector('[data-section="mindmap"] .nav-count');
+        if (mmNav) mmNav.textContent = result.matchedConditions.length;
+
+        statusEl.innerHTML = `✓ Found <strong>${result.matchedConditions.length}</strong> matched conditions across <strong>${Object.keys(result.categoryScores).length}</strong> categories — <a href="#" id="go-mindmap-link">view mind map →</a>`;
+        document.getElementById('go-mindmap-link').addEventListener('click', e => {
+          e.preventDefault();
+          if (window.MindMap) window.MindMap.render(result);
+          activateSection('mindmap');
+        });
+
+        if (window.MindMap) window.MindMap.render(result);
+        activateSection('mindmap');
+      } catch (err) {
+        statusEl.textContent = 'Processing error: ' + err.message;
+        console.error(err);
+      }
+    });
+  }
+
+  // ── MIND MAP ──────────────────────────────────────────────────────────────
+  function buildMindMap() {
+    const el = document.getElementById('section-mindmap');
+    if (!el) return;
+
+    el.innerHTML = `
+      <div class="section-header">
+        <h1>Geological Conditions Mind Map</h1>
+        <p class="section-subtitle">Force-directed graph of potential geological conditions matched from your site description via the SWEET ontology.</p>
+      </div>
+      <div class="mm-toolbar">
+        <button class="btn-icon" id="mm-zoom-in" title="Zoom in">＋</button>
+        <button class="btn-icon" id="mm-zoom-out" title="Zoom out">－</button>
+        <button class="btn-icon" id="mm-reset" title="Reset view">⌂</button>
+        <button class="btn-icon" id="mm-export" title="Export PNG">↓ PNG</button>
+        <span class="mm-legend">
+          <span class="mm-dot" style="background:#4a9eff"></span> Site
+          <span class="mm-dot" style="background:#7c5ce9"></span> Category
+          <span class="mm-dot" style="background:#2ecc71"></span> High match
+          <span class="mm-dot" style="background:#f39c12"></span> Medium match
+          <span class="mm-dot" style="background:#6b7280"></span> SWEET concept
+        </span>
+      </div>
+      <div id="mindmap-container">
+        <svg id="mindmap-svg"></svg>
+        <div id="mindmap-tooltip" class="mm-tooltip"></div>
+      </div>
+    `;
+
+    document.getElementById('mm-zoom-in').addEventListener('click', () => window.MindMap?.zoomIn());
+    document.getElementById('mm-zoom-out').addEventListener('click', () => window.MindMap?.zoomOut());
+    document.getElementById('mm-reset').addEventListener('click', () => window.MindMap?.resetView());
+    document.getElementById('mm-export').addEventListener('click', () => window.MindMap?.exportPNG());
+
+    // Render with current data if available
+    if (state.mindMapData && window.MindMap) {
+      window.MindMap.render(state.mindMapData);
+    } else if (window.MindMap) {
+      window.MindMap.render(null);
+    }
   }
 
 })();
