@@ -23,21 +23,21 @@ window.MindMap = (function () {
   /* Colour helper                                                        */
   /* ------------------------------------------------------------------ */
   function nodeColour(d) {
-    if (d.type === 'root')     return '#4a9eff';
-    if (d.type === 'category') return '#7c5ce9';
-    if (d.type === 'sweet')    return '#6b7280';
-    if (d.score >= 60)         return '#2ecc71';
-    if (d.score >= 30)         return '#f39c12';
-    return '#95a5a6';
+    if (d.type === 'root')     return '#003087';   // AtkinsRealis deep blue
+    if (d.type === 'category') return '#E87722';   // AtkinsRealis orange
+    if (d.type === 'sweet')    return '#64748b';   // slate grey
+    if (d.score >= 60)         return '#1a7340';   // green
+    if (d.score >= 30)         return '#b45309';   // amber
+    return '#8892a4';                              // low match grey
   }
 
   /* ------------------------------------------------------------------ */
   /* Link stroke colour helper                                            */
   /* ------------------------------------------------------------------ */
   function linkColour(d) {
-    if (d.type === 'root-cat')  return '#7c5ce9';
-    if (d.type === 'cat-cond')  return '#4a9eff';
-    return '#6b7280';
+    if (d.type === 'root-cat')  return '#E87722';   // orange spokes to categories
+    if (d.type === 'cat-cond')  return '#003087';   // blue to conditions
+    return '#94a3b8';                               // grey to SWEET concepts
   }
 
   /* ------------------------------------------------------------------ */
@@ -214,16 +214,16 @@ window.MindMap = (function () {
     style.textContent = [
       '#mindmap-container { position:relative; width:100%; height:600px; background:#1a1e2e; border-radius:8px; overflow:hidden; }',
       '#mindmap-svg { display:block; width:100%; height:100%; }',
-      '.mindmap-empty-state { display:flex; align-items:center; justify-content:center; height:100%; color:#8892a4; text-align:center; font-size:15px; padding:24px; }',
+      '.mindmap-empty-state { display:flex; align-items:center; justify-content:center; height:100%; color:rgba(255,255,255,0.35); text-align:center; font-size:15px; padding:24px; }',
       '.mindmap-empty-state p { line-height:1.6; }',
-      '.mm-tooltip { position:absolute; pointer-events:none; background:#232840; border:1px solid #3a4060; border-radius:6px; padding:10px 14px; font-size:13px; color:#e8eaf0; max-width:280px; box-shadow:0 4px 20px rgba(0,0,0,0.5); display:none; z-index:10; }',
-      '.mm-tt-title { font-weight:600; font-size:14px; color:#ffffff; margin-bottom:6px; }',
-      '.mm-tt-row { color:#a0abc0; margin-bottom:3px; }',
-      '.mm-tt-row strong { color:#e8eaf0; }',
+      '.mm-tooltip { position:absolute; pointer-events:none; background:#ffffff; border:1px solid rgba(0,0,0,0.12); border-radius:6px; padding:10px 14px; font-size:13px; color:#1c2333; max-width:280px; box-shadow:0 4px 20px rgba(0,0,0,0.2); display:none; z-index:10; }',
+      '.mm-tt-title { font-weight:600; font-size:14px; color:#1c2333; margin-bottom:6px; }',
+      '.mm-tt-row { color:#64748b; margin-bottom:3px; }',
+      '.mm-tt-row strong { color:#1c2333; }',
       '.mm-tt-chips { margin-top:6px; display:flex; flex-wrap:wrap; gap:4px; }',
-      '.mm-tt-chip { background:#2a3050; border:1px solid #3a4060; border-radius:3px; padding:1px 6px; font-size:11px; color:#a0abc0; }',
+      '.mm-tt-chip { background:#f0f2f5; border:1px solid #e4e7ed; border-radius:3px; padding:1px 6px; font-size:11px; color:#4b5670; }',
       '.mm-tt-sig { margin-top:6px; font-size:12px; color:#8892a4; font-style:italic; }',
-      '.mm-tt-uri { margin-top:6px; font-size:10px; color:#6b7280; word-break:break-all; }'
+      '.mm-tt-uri { margin-top:6px; font-size:10px; color:#8892a4; word-break:break-all; }'
     ].join('\n');
     document.head.appendChild(style);
   }
@@ -345,7 +345,7 @@ window.MindMap = (function () {
     nodeSel.append('circle')
       .attr('r', function (d) { return d.r; })
       .attr('fill', function (d) { return nodeColour(d); })
-      .attr('stroke', '#1a1e2e')
+      .attr('stroke', 'rgba(255,255,255,0.15)')
       .attr('stroke-width', 2);
 
     /* Label */

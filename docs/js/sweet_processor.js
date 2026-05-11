@@ -328,7 +328,7 @@ window.SWEETProcessor = (function () {
       let score = 0;
       const matchedKws = [];
 
-      cond.keywords.forEach(function (kw) {
+      (cond.keywords || []).forEach(function (kw) {
         const kwLower = kw.toLowerCase();
         // Check direct token set membership (handles bigrams too)
         if (tokenSet.has(kwLower)) {
