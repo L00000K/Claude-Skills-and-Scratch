@@ -1,0 +1,5027 @@
+{
+  "version": "1.0",
+  "concepts": [
+    {
+      "uri": "http://sweetontology.net/realmLandform/CentralCreekCrater",
+      "label": "central creek crater",
+      "keywords": [
+        "central creek crater",
+        "central creek craters",
+        "central creek cratered",
+        "central",
+        "creek",
+        "crater"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "crater",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/ComplexCrater",
+      "label": "complex crater",
+      "keywords": [
+        "complex crater",
+        "complex craters",
+        "complex cratered",
+        "complex",
+        "crater"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "crater",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Continent",
+      "label": "continent",
+      "keywords": [
+        "continent",
+        "continents",
+        "continented"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "land region",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Crater",
+      "label": "crater",
+      "keywords": [
+        "crater",
+        "craters",
+        "cratered"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "landform",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/DebrisBasin",
+      "label": "debris basin",
+      "keywords": [
+        "debris basin",
+        "debris basins",
+        "debris basined",
+        "debris",
+        "basin"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "land region",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/DeflationZone",
+      "label": "deflation zone",
+      "keywords": [
+        "deflation zone",
+        "deflation zoning",
+        "deflation zones",
+        "deflation zoneed",
+        "deflation",
+        "zone"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "land region",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Dryland",
+      "label": "dryland",
+      "keywords": [
+        "dryland",
+        "drylands",
+        "drylanded"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "land region",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Field",
+      "label": "field",
+      "keywords": [
+        "field",
+        "fields",
+        "fielded"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "landform",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Highland",
+      "label": "highland",
+      "keywords": [
+        "highland",
+        "highlands",
+        "highlanded"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "landform",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/ImpactBasin",
+      "label": "impact basin",
+      "keywords": [
+        "impact basin",
+        "impact basins",
+        "impact basined",
+        "impact",
+        "basin"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "landform",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/ImpactCrater",
+      "label": "impact crater",
+      "keywords": [
+        "impact crater",
+        "impact craters",
+        "impact cratered",
+        "impact",
+        "crater"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "crater",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Lamination",
+      "label": "lamination",
+      "keywords": [
+        "lamination",
+        "laminations",
+        "laminationed"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "landform",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Land",
+      "label": "land",
+      "keywords": [
+        "land",
+        "lands",
+        "landed"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "region",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/LandCover",
+      "label": "land cover",
+      "keywords": [
+        "land cover",
+        "land covers",
+        "land covered",
+        "land",
+        "cover"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "landform",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/LandRegion",
+      "label": "land region",
+      "keywords": [
+        "land region",
+        "land regions",
+        "land regioned",
+        "land",
+        "region"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/LandSurface",
+      "label": "land surface",
+      "keywords": [
+        "land surface",
+        "land surfacing",
+        "land surfaces",
+        "land surfaceed",
+        "land",
+        "surface"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Landform",
+      "label": "landform",
+      "keywords": [
+        "landform",
+        "landforms",
+        "landformed"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "land region",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Landscape",
+      "label": "landscape",
+      "keywords": [
+        "landscape",
+        "landscaping",
+        "landscapes",
+        "landscapeed"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "landform",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Lowland",
+      "label": "lowland",
+      "keywords": [
+        "lowland",
+        "lowlands",
+        "lowlanded"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "landform",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Mare",
+      "label": "mare",
+      "keywords": [
+        "mare",
+        "maring",
+        "mares",
+        "mareed"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "plain",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/PedestalCrater",
+      "label": "pedestal crater",
+      "keywords": [
+        "pedestal crater",
+        "pedestal craters",
+        "pedestal cratered",
+        "pedestal",
+        "crater"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "crater",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/PitCrater",
+      "label": "pit crater",
+      "keywords": [
+        "pit crater",
+        "pit craters",
+        "pit cratered",
+        "pit",
+        "crater"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "crater",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Plain",
+      "label": "plain",
+      "keywords": [
+        "plain",
+        "plains",
+        "plained"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "landform",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Prarie",
+      "label": "prarie",
+      "keywords": [
+        "prarie",
+        "prariing",
+        "praries",
+        "prarieed"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "plain",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/RockyPitFloorCrater",
+      "label": "rocky pit floor crater",
+      "keywords": [
+        "rocky pit floor crater",
+        "rocky pit floor craters",
+        "rocky pit floor cratered",
+        "rocky",
+        "pit",
+        "floor",
+        "crater"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "pit crater",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/ShatterCone",
+      "label": "shatter cone",
+      "keywords": [
+        "shatter cone",
+        "shatter coning",
+        "shatter cones",
+        "shatter coneed",
+        "shatter",
+        "cone"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "landform",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/Spall",
+      "label": "spall",
+      "keywords": [
+        "spall",
+        "spalls",
+        "spalled"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "landform",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmLandform/SurfaceRegion",
+      "label": "surface region",
+      "keywords": [
+        "surface region",
+        "surface regions",
+        "surface regioned",
+        "surface",
+        "region"
+      ],
+      "module": "realmLandform",
+      "category": "Coastal & Fluvial",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/CompositeProcess",
+      "label": "composite process",
+      "keywords": [
+        "composite process",
+        "composite processs",
+        "composite processed",
+        "composite",
+        "process"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "genesis",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/Differentiation",
+      "label": "differentiation",
+      "keywords": [
+        "differentiation",
+        "differentiations",
+        "differentiationed"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "geological phenomena",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/Fluvial",
+      "label": "fluvial",
+      "keywords": [
+        "fluvial",
+        "fluvials",
+        "fluvialed"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "geological phenomena",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/GeologicalPhenomena",
+      "label": "geological phenomena",
+      "keywords": [
+        "geological phenomena",
+        "geological phenomenas",
+        "geological phenomenaed",
+        "geological",
+        "phenomena"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "planetaryphenomena",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/GeospherePhenomena",
+      "label": "geosphere phenomena",
+      "keywords": [
+        "geosphere phenomena",
+        "geosphere phenomenas",
+        "geosphere phenomenaed",
+        "geosphere",
+        "phenomena"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/Igneous",
+      "label": "igneous",
+      "keywords": [
+        "igneous",
+        "igneouss",
+        "igneoused"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "rock cycle process",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/IntraplateProcess",
+      "label": "intraplate process",
+      "keywords": [
+        "intraplate process",
+        "intraplate processs",
+        "intraplate processed",
+        "intraplate",
+        "process"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "tectonicphenomena",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/Metamorphic",
+      "label": "metamorphic",
+      "keywords": [
+        "metamorphic",
+        "metamorphics",
+        "metamorphiced"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "rock cycle process",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/Orogenesis",
+      "label": "orogenesis",
+      "keywords": [
+        "orogenesis",
+        "orogenesiss",
+        "orogenesised"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "geological phenomena",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/OrogenicCollapse",
+      "label": "orogenic collapse",
+      "keywords": [
+        "orogenic collapse",
+        "orogenic collapsing",
+        "orogenic collapses",
+        "orogenic collapseed",
+        "orogenic",
+        "collapse"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "tectonicphenomena",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/Orogeny",
+      "label": "orogeny",
+      "keywords": [
+        "orogeny",
+        "orogenys",
+        "orogenyed"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "tectonicphenomena",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/Paleomagnetism",
+      "label": "paleomagnetism",
+      "keywords": [
+        "paleomagnetism",
+        "paleomagnetisms",
+        "paleomagnetismed"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "geological phenomena",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/Pedogenesis",
+      "label": "pedogenesis",
+      "keywords": [
+        "pedogenesis",
+        "pedogenesiss",
+        "pedogenesised"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "genesis",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/RockCycle",
+      "label": "rock cycle",
+      "keywords": [
+        "rock cycle",
+        "rock cycling",
+        "rock cycles",
+        "rock cycleed",
+        "rock",
+        "cycle"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "geological phenomena",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/RockCycleProcess",
+      "label": "rock cycle process",
+      "keywords": [
+        "rock cycle process",
+        "rock cycle processs",
+        "rock cycle processed",
+        "rock",
+        "cycle",
+        "process"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/Sedimentary",
+      "label": "sedimentary",
+      "keywords": [
+        "sedimentary",
+        "sedimentarys",
+        "sedimentaryed"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "rock cycle process",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/StratigraphicSequence",
+      "label": "stratigraphic sequence",
+      "keywords": [
+        "stratigraphic sequence",
+        "stratigraphic sequencing",
+        "stratigraphic sequences",
+        "stratigraphic sequenceed",
+        "stratigraphic",
+        "sequence"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "history",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/Unconformity",
+      "label": "unconformity",
+      "keywords": [
+        "unconformity",
+        "unconformitys",
+        "unconformityed"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "history",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeol/WilsonCycle",
+      "label": "wilson cycle",
+      "keywords": [
+        "wilson cycle",
+        "wilson cycling",
+        "wilson cycles",
+        "wilson cycleed",
+        "wilson",
+        "cycle"
+      ],
+      "module": "phenGeol",
+      "category": "Geohazards",
+      "parent_label": "rock cycle",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Asthenosphere",
+      "label": "asthenosphere",
+      "keywords": [
+        "asthenosphere",
+        "asthenosphering",
+        "asthenospheres",
+        "asthenosphereed"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "upper mantle",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Basement",
+      "label": "basement",
+      "keywords": [
+        "basement",
+        "basements",
+        "basemented"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geologic structure",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Batholith",
+      "label": "batholith",
+      "keywords": [
+        "batholith",
+        "batholiths",
+        "batholithed"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "plutonic structure",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Bedrock",
+      "label": "bedrock",
+      "keywords": [
+        "bedrock",
+        "bedrocks",
+        "bedrocked",
+        "rock head",
+        "rockhead",
+        "solid geology",
+        "parent rock"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geosphere layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/BrittleDuctileTransitionZone",
+      "label": "brittle ductile transition zone",
+      "keywords": [
+        "brittle ductile transition zone",
+        "brittle ductile transition zoning",
+        "brittle ductile transition zones",
+        "brittle ductile transition zoneed",
+        "brittle",
+        "ductile",
+        "transition",
+        "zone"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "crust",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Continental",
+      "label": "continental",
+      "keywords": [
+        "continental",
+        "continentals",
+        "continentaled"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "planetaryrealm",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Core",
+      "label": "core",
+      "keywords": [
+        "core",
+        "coring",
+        "cores",
+        "coreed"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geosphere layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/CoreMantleBoundary",
+      "label": "core mantle boundary",
+      "keywords": [
+        "core mantle boundary",
+        "core mantle boundarys",
+        "core mantle boundaryed",
+        "core",
+        "mantle",
+        "boundary"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Cover",
+      "label": "cover",
+      "keywords": [
+        "cover",
+        "covers",
+        "covered"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geologic structure",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Crust",
+      "label": "crust",
+      "keywords": [
+        "crust",
+        "crusts",
+        "crusted"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geosphere layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/CrustMantleBoundary",
+      "label": "crust mantle boundary",
+      "keywords": [
+        "crust mantle boundary",
+        "crust mantle boundarys",
+        "crust mantle boundaryed",
+        "crust",
+        "mantle",
+        "boundary"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/DLayer",
+      "label": "d layer",
+      "keywords": [
+        "d layer",
+        "d layers",
+        "d layered",
+        "d",
+        "layer"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "mantle",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Detachment",
+      "label": "detachment",
+      "keywords": [
+        "detachment",
+        "detachments",
+        "detachmented"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "normal",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Dextral",
+      "label": "dextral",
+      "keywords": [
+        "dextral",
+        "dextrals",
+        "dextraled"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "tectonicprocess",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Dike",
+      "label": "dike",
+      "keywords": [
+        "dike",
+        "diking",
+        "dikes",
+        "dikeed"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "plutonic structure",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/DipSeparationSense",
+      "label": "dip separation sense",
+      "keywords": [
+        "dip separation sense",
+        "dip separation sensing",
+        "dip separation senses",
+        "dip separation senseed",
+        "dip",
+        "separation",
+        "sense"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "slip",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/DipSlip",
+      "label": "dip slip",
+      "keywords": [
+        "dip slip",
+        "dip slips",
+        "dip sliped",
+        "dip",
+        "slip"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "dip separation sense",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Extraction",
+      "label": "extraction",
+      "keywords": [
+        "extraction",
+        "extractions",
+        "extractioned"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "slip",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Fabric",
+      "label": "fabric",
+      "keywords": [
+        "fabric",
+        "fabrics",
+        "fabriced"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "configuration",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/GenericDecollement",
+      "label": "generic decollement",
+      "keywords": [
+        "generic decollement",
+        "generic decollements",
+        "generic decollemented",
+        "generic",
+        "decollement"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "tectonicprocess",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/GeologicBoundary",
+      "label": "geologic boundary",
+      "keywords": [
+        "geologic boundary",
+        "geologic boundarys",
+        "geologic boundaryed",
+        "geologic",
+        "boundary"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "planetaryboundary",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/GeologicFeature",
+      "label": "geologic feature",
+      "keywords": [
+        "geologic feature",
+        "geologic featuring",
+        "geologic features",
+        "geologic featureed",
+        "geologic",
+        "feature"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/GeologicProvince",
+      "label": "geologic province",
+      "keywords": [
+        "geologic province",
+        "geologic provincing",
+        "geologic provinces",
+        "geologic provinceed",
+        "geologic",
+        "province"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geologic feature",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/GeologicStructure",
+      "label": "geologic structure",
+      "keywords": [
+        "geologic structure",
+        "geologic structuring",
+        "geologic structures",
+        "geologic structureed",
+        "geologic",
+        "structure"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geosphere",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/GeosphereLayer",
+      "label": "geosphere layer",
+      "keywords": [
+        "geosphere layer",
+        "geosphere layers",
+        "geosphere layered",
+        "geosphere",
+        "layer"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "planetarylayer",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/GiantDikeSwarm",
+      "label": "giant dike swarm",
+      "keywords": [
+        "giant dike swarm",
+        "giant dike swarms",
+        "giant dike swarmed",
+        "giant",
+        "dike",
+        "swarm"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "dike",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/GuttenburgDiscontinuity",
+      "label": "guttenburg discontinuity",
+      "keywords": [
+        "guttenburg discontinuity",
+        "guttenburg discontinuitys",
+        "guttenburg discontinuityed",
+        "guttenburg",
+        "discontinuity"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geologic boundary",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Heave",
+      "label": "heave",
+      "keywords": [
+        "heave",
+        "heaving",
+        "heaves",
+        "heaveed"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "displacement",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Horizontal",
+      "label": "horizontal",
+      "keywords": [
+        "horizontal",
+        "horizontals",
+        "horizontaled"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "slip",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/InnerCore",
+      "label": "inner core",
+      "keywords": [
+        "inner core",
+        "inner coring",
+        "inner cores",
+        "inner coreed",
+        "inner",
+        "core"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "mantle",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Laccolith",
+      "label": "laccolith",
+      "keywords": [
+        "laccolith",
+        "laccoliths",
+        "laccolithed"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "plutonic structure",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/LehmannDiscontinuity",
+      "label": "lehmann discontinuity",
+      "keywords": [
+        "lehmann discontinuity",
+        "lehmann discontinuitys",
+        "lehmann discontinuityed",
+        "lehmann",
+        "discontinuity"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geologic boundary",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Lithosphere",
+      "label": "lithosphere",
+      "keywords": [
+        "lithosphere",
+        "lithosphering",
+        "lithospheres",
+        "lithosphereed"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geosphere layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Lopolith",
+      "label": "lopolith",
+      "keywords": [
+        "lopolith",
+        "lopoliths",
+        "lopolithed"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "plutonic structure",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/LowerMantle",
+      "label": "lower mantle",
+      "keywords": [
+        "lower mantle",
+        "lower mantling",
+        "lower mantles",
+        "lower mantleed",
+        "lower",
+        "mantle"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "mantle",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Mantle",
+      "label": "mantle",
+      "keywords": [
+        "mantle",
+        "mantling",
+        "mantles",
+        "mantleed"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geosphere layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Mesosphere",
+      "label": "mesosphere",
+      "keywords": [
+        "mesosphere",
+        "mesosphering",
+        "mesospheres",
+        "mesosphereed"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/MixedExtraction",
+      "label": "mixed extraction",
+      "keywords": [
+        "mixed extraction",
+        "mixed extractions",
+        "mixed extractioned",
+        "mixed",
+        "extraction"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "extraction",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Moho",
+      "label": "moho",
+      "keywords": [
+        "moho",
+        "mohos",
+        "mohoed"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geologic boundary",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Mohorovi_i_Discontinuity",
+      "label": "mohorovicic discontinuity",
+      "keywords": [
+        "mohorovicic discontinuity",
+        "mohorovicic discontinuitys",
+        "mohorovicic discontinuityed",
+        "mohorovicic",
+        "discontinuity"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/NoMovementSense",
+      "label": "no movement sense",
+      "keywords": [
+        "no movement sense",
+        "no movement sensing",
+        "no movement senses",
+        "no movement senseed",
+        "no",
+        "movement",
+        "sense"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "tectonicprocess",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Normal",
+      "label": "normal",
+      "keywords": [
+        "normal",
+        "normals",
+        "normaled"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "tectonicprocess",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/ObliqueSlip",
+      "label": "oblique slip",
+      "keywords": [
+        "oblique slip",
+        "oblique slips",
+        "oblique sliped",
+        "oblique",
+        "slip"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "slip",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/OuterCore",
+      "label": "outer core",
+      "keywords": [
+        "outer core",
+        "outer coring",
+        "outer cores",
+        "outer coreed",
+        "outer",
+        "core"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "mantle",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/PlutonicStructure",
+      "label": "plutonic structure",
+      "keywords": [
+        "plutonic structure",
+        "plutonic structuring",
+        "plutonic structures",
+        "plutonic structureed",
+        "plutonic",
+        "structure"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geologic structure",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/PureExtraction",
+      "label": "pure extraction",
+      "keywords": [
+        "pure extraction",
+        "pure extractions",
+        "pure extractioned",
+        "pure",
+        "extraction"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "extraction",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Reverse",
+      "label": "reverse",
+      "keywords": [
+        "reverse",
+        "reversing",
+        "reverses",
+        "reverseed"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "tectonicprocess",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Scissor",
+      "label": "scissor",
+      "keywords": [
+        "scissor",
+        "scissors",
+        "scissored"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "slip",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/SeismicZone",
+      "label": "seismic zone",
+      "keywords": [
+        "seismic zone",
+        "seismic zoning",
+        "seismic zones",
+        "seismic zoneed",
+        "seismic",
+        "zone"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geologic feature",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Sense",
+      "label": "sense",
+      "keywords": [
+        "sense",
+        "sensing",
+        "senses",
+        "senseed"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "direction",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Sill",
+      "label": "sill",
+      "keywords": [
+        "sill",
+        "sills",
+        "silled"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "plutonic structure",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Sinistral",
+      "label": "sinistral",
+      "keywords": [
+        "sinistral",
+        "sinistrals",
+        "sinistraled"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "tectonicprocess",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/SkinLayer",
+      "label": "skin layer",
+      "keywords": [
+        "skin layer",
+        "skin layers",
+        "skin layered",
+        "skin",
+        "layer"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Slip",
+      "label": "slip",
+      "keywords": [
+        "slip",
+        "slips",
+        "sliped"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "motion",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/SolidEarth",
+      "label": "solid earth",
+      "keywords": [
+        "solid earth",
+        "solid earths",
+        "solid earthed",
+        "solid",
+        "earth"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/StrikeSeparationSense",
+      "label": "strike separation sense",
+      "keywords": [
+        "strike separation sense",
+        "strike separation sensing",
+        "strike separation senses",
+        "strike separation senseed",
+        "strike",
+        "separation",
+        "sense"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "slip",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/StrikeSlip",
+      "label": "strike slip",
+      "keywords": [
+        "strike slip",
+        "strike slips",
+        "strike sliped",
+        "strike",
+        "slip"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "strike separation sense",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/Subsurface",
+      "label": "subsurface",
+      "keywords": [
+        "subsurface",
+        "subsurfacing",
+        "subsurfaces",
+        "subsurfaceed"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "planetaryrealm",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Throw",
+      "label": "throw",
+      "keywords": [
+        "throw",
+        "throws",
+        "throwed"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "displacement",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Thrust",
+      "label": "thrust",
+      "keywords": [
+        "thrust",
+        "thrusts",
+        "thrusted"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "tectonicprocess",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/ThrustDecollement",
+      "label": "thrust decollement",
+      "keywords": [
+        "thrust decollement",
+        "thrust decollements",
+        "thrust decollemented",
+        "thrust",
+        "decollement"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "thrust",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Transcurrent",
+      "label": "transcurrent",
+      "keywords": [
+        "transcurrent",
+        "transcurrents",
+        "transcurrented"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "strike slip",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Transform",
+      "label": "transform",
+      "keywords": [
+        "transform",
+        "transforms",
+        "transformed"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "strike slip",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/TransitionalCrust",
+      "label": "transitional crust",
+      "keywords": [
+        "transitional crust",
+        "transitional crusts",
+        "transitional crusted",
+        "transitional",
+        "crust"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "crust",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/TransitionalLithosphere",
+      "label": "transitional lithosphere",
+      "keywords": [
+        "transitional lithosphere",
+        "transitional lithosphering",
+        "transitional lithospheres",
+        "transitional lithosphereed",
+        "transitional",
+        "lithosphere"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "geosphere layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Transpressional",
+      "label": "transpressional",
+      "keywords": [
+        "transpressional",
+        "transpressionals",
+        "transpressionaled"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "oblique slip",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Transtensional",
+      "label": "transtensional",
+      "keywords": [
+        "transtensional",
+        "transtensionals",
+        "transtensionaled"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "oblique slip",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/UpperMantle",
+      "label": "upper mantle",
+      "keywords": [
+        "upper mantle",
+        "upper mantling",
+        "upper mantles",
+        "upper mantleed",
+        "upper",
+        "mantle"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "mantle",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/UpperMantleFlowing",
+      "label": "upper mantle flowing",
+      "keywords": [
+        "upper mantle flowing",
+        "upper mantle flowings",
+        "upper mantle flowinged",
+        "upper",
+        "mantle",
+        "flowing"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmGeol/UpperMantleRigid",
+      "label": "upper mantle rigid",
+      "keywords": [
+        "upper mantle rigid",
+        "upper mantle rigids",
+        "upper mantle rigided",
+        "upper",
+        "mantle",
+        "rigid"
+      ],
+      "module": "realmGeol",
+      "category": "Geological Structure",
+      "parent_label": "upper mantle",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolFault/Wrench",
+      "label": "wrench",
+      "keywords": [
+        "wrench",
+        "wrenchs",
+        "wrenched"
+      ],
+      "module": "phenGeolFault",
+      "category": "Geological Structure",
+      "parent_label": "strike slip",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Abrasion",
+      "label": "abrasion",
+      "keywords": [
+        "abrasion",
+        "abrasions",
+        "abrasioned"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "material displacement",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Avalanche",
+      "label": "avalanche",
+      "keywords": [
+        "avalanche",
+        "avalanching",
+        "avalanches",
+        "avalancheed"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "slide",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Compaction",
+      "label": "compaction",
+      "keywords": [
+        "compaction",
+        "compactions",
+        "compactioned"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "sediment formation",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Creep",
+      "label": "creep",
+      "keywords": [
+        "creep",
+        "creeps",
+        "creeped"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "material displacement",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Denundation",
+      "label": "denundation",
+      "keywords": [
+        "denundation",
+        "denundations",
+        "denundationed"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "material displacement",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Diagenesis",
+      "label": "diagenesis",
+      "keywords": [
+        "diagenesis",
+        "diagenesiss",
+        "diagenesised"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "sediment formation",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Exfoliation",
+      "label": "exfoliation",
+      "keywords": [
+        "exfoliation",
+        "exfoliations",
+        "exfoliationed"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "weathering",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Haloclasty",
+      "label": "haloclasty",
+      "keywords": [
+        "haloclasty",
+        "haloclastys",
+        "haloclastyed"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "weathering",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Karst",
+      "label": "karst",
+      "keywords": [
+        "karst",
+        "karsts",
+        "karsted",
+        "sinkhole",
+        "dissolution",
+        "doline",
+        "cave"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "geologicalphenomena",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Landslide",
+      "label": "landslide",
+      "keywords": [
+        "landslide",
+        "landsliding",
+        "landslides",
+        "landslideed",
+        "slope failure",
+        "mass movement",
+        "slope instability",
+        "slippage"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "slide",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/MassWasting",
+      "label": "mass wasting",
+      "keywords": [
+        "mass wasting",
+        "mass wastings",
+        "mass wastinged",
+        "mass",
+        "wasting"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "material displacement",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/MaterialDisplacement",
+      "label": "material displacement",
+      "keywords": [
+        "material displacement",
+        "material displacements",
+        "material displacemented",
+        "material",
+        "displacement"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "planetaryphenomena",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Mudslide",
+      "label": "mudslide",
+      "keywords": [
+        "mudslide",
+        "mudsliding",
+        "mudslides",
+        "mudslideed"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "slide",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Reptation",
+      "label": "reptation",
+      "keywords": [
+        "reptation",
+        "reptations",
+        "reptationed"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/RockSlopeFailure",
+      "label": "rock slope failure",
+      "keywords": [
+        "rock slope failure",
+        "rock slope failuring",
+        "rock slope failures",
+        "rock slope failureed",
+        "rock",
+        "slope",
+        "failure"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "material displacement",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Saltation",
+      "label": "saltation",
+      "keywords": [
+        "saltation",
+        "saltations",
+        "saltationed"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "material displacement",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/SedimentFormation",
+      "label": "sediment formation",
+      "keywords": [
+        "sediment formation",
+        "sediment formations",
+        "sediment formationed",
+        "sediment",
+        "formation"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "material displacement",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Sedimentation",
+      "label": "sedimentation",
+      "keywords": [
+        "sedimentation",
+        "sedimentations",
+        "sedimentationed"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "geologicalphenomena",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Slide",
+      "label": "slide",
+      "keywords": [
+        "slide",
+        "sliding",
+        "slides",
+        "slideed"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "phenomena",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Slump",
+      "label": "slump",
+      "keywords": [
+        "slump",
+        "slumps",
+        "slumped"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "material displacement",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Solifluction",
+      "label": "solifluction",
+      "keywords": [
+        "solifluction",
+        "solifluctions",
+        "solifluctioned"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "material displacement",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Subsidence",
+      "label": "subsidence",
+      "keywords": [
+        "subsidence",
+        "subsidencing",
+        "subsidences",
+        "subsidenceed",
+        "settlement",
+        "ground movement",
+        "compaction",
+        "consolidation"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "material displacement",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenGeolGeomorphology/Weathering",
+      "label": "weathering",
+      "keywords": [
+        "weathering",
+        "weatherings",
+        "weatheringed"
+      ],
+      "module": "phenGeolGeomorphology",
+      "category": "Geomorphology",
+      "parent_label": "material displacement",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/Aquiclude",
+      "label": "aquiclude",
+      "keywords": [
+        "aquiclude",
+        "aquicluding",
+        "aquicludes",
+        "aquicludeed"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/Aquifer",
+      "label": "aquifer",
+      "keywords": [
+        "aquifer",
+        "aquifers",
+        "aquifered",
+        "water bearing",
+        "water-bearing",
+        "permeable layer",
+        "groundwater bearing"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/Aquifuge",
+      "label": "aquifuge",
+      "keywords": [
+        "aquifuge",
+        "aquifuging",
+        "aquifuges",
+        "aquifugeed"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/Aquitard",
+      "label": "aquitard",
+      "keywords": [
+        "aquitard",
+        "aquitards",
+        "aquitarded",
+        "low permeability",
+        "confining layer",
+        "clay seal",
+        "impermeable"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/Bank",
+      "label": "bank",
+      "keywords": [
+        "bank",
+        "banks",
+        "banked"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/BaseFlow",
+      "label": "base flow",
+      "keywords": [
+        "base flow",
+        "base flows",
+        "base flowed",
+        "base",
+        "flow"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "streamflow",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/CascadingWater",
+      "label": "cascading water",
+      "keywords": [
+        "cascading water",
+        "cascading waters",
+        "cascading watered",
+        "cascading",
+        "water"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "groundwater",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/ConeOfDepression",
+      "label": "cone of depression",
+      "keywords": [
+        "cone of depression",
+        "cone of depressions",
+        "cone of depressioned",
+        "cone",
+        "of",
+        "depression"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/ConeOfImpression",
+      "label": "cone of impression",
+      "keywords": [
+        "cone of impression",
+        "cone of impressions",
+        "cone of impressioned",
+        "cone",
+        "of",
+        "impression"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/ConfinedAquifer",
+      "label": "confined aquifer",
+      "keywords": [
+        "confined aquifer",
+        "confined aquifers",
+        "confined aquifered",
+        "confined",
+        "aquifer",
+        "water bearing",
+        "water-bearing",
+        "permeable layer",
+        "groundwater bearing"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "aquifer",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/ConfinedBed",
+      "label": "confined bed",
+      "keywords": [
+        "confined bed",
+        "confined beds",
+        "confined beded",
+        "confined",
+        "bed"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/ConfinedUnit",
+      "label": "confined unit",
+      "keywords": [
+        "confined unit",
+        "confined units",
+        "confined united",
+        "confined",
+        "unit"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/ConfinedZone",
+      "label": "confined zone",
+      "keywords": [
+        "confined zone",
+        "confined zoning",
+        "confined zones",
+        "confined zoneed",
+        "confined",
+        "zone"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Debouche",
+      "label": "debouche",
+      "keywords": [
+        "debouche",
+        "debouching",
+        "debouches",
+        "deboucheed"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "stream discharge",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/DeepPercolation",
+      "label": "deep percolation",
+      "keywords": [
+        "deep percolation",
+        "deep percolations",
+        "deep percolationed",
+        "deep",
+        "percolation"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "percolation",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Discharge",
+      "label": "discharge",
+      "keywords": [
+        "discharge",
+        "discharging",
+        "discharges",
+        "dischargeed"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "water flow",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Drain",
+      "label": "drain",
+      "keywords": [
+        "drain",
+        "drains",
+        "drained"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "water flow",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Drainage",
+      "label": "drainage",
+      "keywords": [
+        "drainage",
+        "drainaging",
+        "drainages",
+        "drainageed"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "removal",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/Dyke",
+      "label": "dyke",
+      "keywords": [
+        "dyke",
+        "dyking",
+        "dykes",
+        "dykeed"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/Embankment",
+      "label": "embankment",
+      "keywords": [
+        "embankment",
+        "embankments",
+        "embankmented"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/FlashFlood",
+      "label": "flash flood",
+      "keywords": [
+        "flash flood",
+        "flash floods",
+        "flash flooded",
+        "flash",
+        "flood"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "extremeevent",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Flood",
+      "label": "flood",
+      "keywords": [
+        "flood",
+        "floods",
+        "flooded"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere phenomena",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/FloodBank",
+      "label": "flood bank",
+      "keywords": [
+        "flood bank",
+        "flood banks",
+        "flood banked",
+        "flood",
+        "bank"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/GroundwaterLevel",
+      "label": "groundwater level",
+      "keywords": [
+        "groundwater level",
+        "groundwater levels",
+        "groundwater leveled",
+        "groundwater",
+        "level",
+        "ground water",
+        "water table",
+        "phreatic",
+        "piezometric"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "planetarysurfacelevel",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/GroundwaterStorage",
+      "label": "groundwater storage",
+      "keywords": [
+        "groundwater storage",
+        "groundwater storaging",
+        "groundwater storages",
+        "groundwater storageed",
+        "groundwater",
+        "storage",
+        "ground water",
+        "water table",
+        "phreatic",
+        "piezometric"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere phenomena",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/HydrosphereFeature",
+      "label": "hydrosphere feature",
+      "keywords": [
+        "hydrosphere feature",
+        "hydrosphere featuring",
+        "hydrosphere features",
+        "hydrosphere featureed",
+        "hydrosphere",
+        "feature"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "planetaryrealm",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/HydrospherePhenomena",
+      "label": "hydrosphere phenomena",
+      "keywords": [
+        "hydrosphere phenomena",
+        "hydrosphere phenomenas",
+        "hydrosphere phenomenaed",
+        "hydrosphere",
+        "phenomena"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "planetaryphenomena",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/HydrothermalAlteration",
+      "label": "hydrothermal alteration",
+      "keywords": [
+        "hydrothermal alteration",
+        "hydrothermal alterations",
+        "hydrothermal alterationed",
+        "hydrothermal",
+        "alteration"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere phenomena",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Infiltration",
+      "label": "infiltration",
+      "keywords": [
+        "infiltration",
+        "infiltrations",
+        "infiltrationed"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "land water circulation",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Intrusion",
+      "label": "intrusion",
+      "keywords": [
+        "intrusion",
+        "intrusions",
+        "intrusioned"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "land water circulation",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/LandWaterCirculation",
+      "label": "land water circulation",
+      "keywords": [
+        "land water circulation",
+        "land water circulations",
+        "land water circulationed",
+        "land",
+        "water",
+        "circulation"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere phenomena",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/Levee",
+      "label": "levee",
+      "keywords": [
+        "levee",
+        "leveing",
+        "levees",
+        "leveeed"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/OpenChannelFlow",
+      "label": "open channel flow",
+      "keywords": [
+        "open channel flow",
+        "open channel flows",
+        "open channel flowed",
+        "open",
+        "channel",
+        "flow"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "water flow",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Outflow",
+      "label": "outflow",
+      "keywords": [
+        "outflow",
+        "outflows",
+        "outflowed"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "water flow",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/OverlandFlow",
+      "label": "overland flow",
+      "keywords": [
+        "overland flow",
+        "overland flows",
+        "overland flowed",
+        "overland",
+        "flow"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "runoff",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Percolate",
+      "label": "percolate",
+      "keywords": [
+        "percolate",
+        "percolating",
+        "percolates",
+        "percolateed"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Percolation",
+      "label": "percolation",
+      "keywords": [
+        "percolation",
+        "percolations",
+        "percolationed"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "transport",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/PotentiometricSurface",
+      "label": "potentiometric surface",
+      "keywords": [
+        "potentiometric surface",
+        "potentiometric surfacing",
+        "potentiometric surfaces",
+        "potentiometric surfaceed",
+        "potentiometric",
+        "surface"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/RadionucleiRetardation",
+      "label": "radionuclei retardation",
+      "keywords": [
+        "radionuclei retardation",
+        "radionuclei retardations",
+        "radionuclei retardationed",
+        "radionuclei",
+        "retardation"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere phenomena",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/RaisedBank",
+      "label": "raised bank",
+      "keywords": [
+        "raised bank",
+        "raised banks",
+        "raised banked",
+        "raised",
+        "bank"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Recharge",
+      "label": "recharge",
+      "keywords": [
+        "recharge",
+        "recharging",
+        "recharges",
+        "rechargeed"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "transport",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Runoff",
+      "label": "runoff",
+      "keywords": [
+        "runoff",
+        "runoffs",
+        "runoffed"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "water flow",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/SaturatedZone",
+      "label": "saturated zone",
+      "keywords": [
+        "saturated zone",
+        "saturated zoning",
+        "saturated zones",
+        "saturated zoneed",
+        "saturated",
+        "zone"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/SeepageFace",
+      "label": "seepage face",
+      "keywords": [
+        "seepage face",
+        "seepage facing",
+        "seepage faces",
+        "seepage faceed",
+        "seepage",
+        "face"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "boundary",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/SnowCover",
+      "label": "snow cover",
+      "keywords": [
+        "snow cover",
+        "snow covers",
+        "snow covered",
+        "snow",
+        "cover"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere phenomena",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Snowslide",
+      "label": "snowslide",
+      "keywords": [
+        "snowslide",
+        "snowsliding",
+        "snowslides",
+        "snowslideed"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "avalanche",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/StreamDischarge",
+      "label": "stream discharge",
+      "keywords": [
+        "stream discharge",
+        "stream discharging",
+        "stream discharges",
+        "stream dischargeed",
+        "stream",
+        "discharge"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "discharge",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Streamflow",
+      "label": "streamflow",
+      "keywords": [
+        "streamflow",
+        "streamflows",
+        "streamflowed"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "water flow",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/SurfaceWater",
+      "label": "surface water",
+      "keywords": [
+        "surface water",
+        "surface waters",
+        "surface watered",
+        "surface",
+        "water"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/Torrent",
+      "label": "torrent",
+      "keywords": [
+        "torrent",
+        "torrents",
+        "torrented"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "discharge",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/UnconfinedAquifer",
+      "label": "unconfined aquifer",
+      "keywords": [
+        "unconfined aquifer",
+        "unconfined aquifers",
+        "unconfined aquifered",
+        "unconfined",
+        "aquifer",
+        "water bearing",
+        "water-bearing",
+        "permeable layer",
+        "groundwater bearing"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "aquifer",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/UndergroundWater",
+      "label": "underground water",
+      "keywords": [
+        "underground water",
+        "underground waters",
+        "underground watered",
+        "underground",
+        "water"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "groundwater",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/UnsaturatedZone",
+      "label": "unsaturated zone",
+      "keywords": [
+        "unsaturated zone",
+        "unsaturated zoning",
+        "unsaturated zones",
+        "unsaturated zoneed",
+        "unsaturated",
+        "zone"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/VadoseZone",
+      "label": "vadose zone",
+      "keywords": [
+        "vadose zone",
+        "vadose zoning",
+        "vadose zones",
+        "vadose zoneed",
+        "vadose",
+        "zone"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/WarmPool",
+      "label": "warm pool",
+      "keywords": [
+        "warm pool",
+        "warm pools",
+        "warm pooled",
+        "warm",
+        "pool"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/WaterColumn",
+      "label": "water column",
+      "keywords": [
+        "water column",
+        "water columns",
+        "water columned",
+        "water",
+        "column"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/phenHydro/WaterFlow",
+      "label": "water flow",
+      "keywords": [
+        "water flow",
+        "water flows",
+        "water flowed",
+        "water",
+        "flow"
+      ],
+      "module": "phenHydro",
+      "category": "Hydrogeology",
+      "parent_label": "flow",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/WaterTable",
+      "label": "water table",
+      "keywords": [
+        "water table",
+        "water tabling",
+        "water tables",
+        "water tableed",
+        "water",
+        "table"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "hydrosphere feature",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmHydro/WaterTableAquifer",
+      "label": "water table aquifer",
+      "keywords": [
+        "water table aquifer",
+        "water table aquifers",
+        "water table aquifered",
+        "water",
+        "table",
+        "aquifer",
+        "water bearing",
+        "water-bearing",
+        "permeable layer",
+        "groundwater bearing"
+      ],
+      "module": "realmHydro",
+      "category": "Hydrogeology",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/A_Horizon",
+      "label": "a horizon",
+      "keywords": [
+        "a horizon",
+        "a horizons",
+        "a horizoned",
+        "a",
+        "horizon"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Aa",
+      "label": "aa",
+      "keywords": [
+        "aa",
+        "aas",
+        "aaed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "extrusive rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/ActiveLayer",
+      "label": "active layer",
+      "keywords": [
+        "active layer",
+        "active layers",
+        "active layered",
+        "active",
+        "layer"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Alfisol",
+      "label": "alfisol",
+      "keywords": [
+        "alfisol",
+        "alfisols",
+        "alfisoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil order",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Alluvium",
+      "label": "alluvium",
+      "keywords": [
+        "alluvium",
+        "alluviums",
+        "alluviumed",
+        "alluvial",
+        "alluvial deposit",
+        "river deposit",
+        "fluvial"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Andesite",
+      "label": "andesite",
+      "keywords": [
+        "andesite",
+        "andesiting",
+        "andesites",
+        "andesiteed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic rock",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Andisol",
+      "label": "andisol",
+      "keywords": [
+        "andisol",
+        "andisols",
+        "andisoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil order",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/AnorogenicIgneousRock",
+      "label": "anorogenic igneous rock",
+      "keywords": [
+        "anorogenic igneous rock",
+        "anorogenic igneous rocks",
+        "anorogenic igneous rocked",
+        "anorogenic",
+        "igneous",
+        "rock"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "intrusive rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Anorthosite",
+      "label": "anorthosite",
+      "keywords": [
+        "anorthosite",
+        "anorthositing",
+        "anorthosites",
+        "anorthositeed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "igneous rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Aphanite",
+      "label": "aphanite",
+      "keywords": [
+        "aphanite",
+        "aphaniting",
+        "aphanites",
+        "aphaniteed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "igneous rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Aridisol",
+      "label": "aridisol",
+      "keywords": [
+        "aridisol",
+        "aridisols",
+        "aridisoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil order",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/AshFlow",
+      "label": "ash flow",
+      "keywords": [
+        "ash flow",
+        "ash flows",
+        "ash flowed",
+        "ash",
+        "flow"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "debris flow",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Ashfall",
+      "label": "ashfall",
+      "keywords": [
+        "ashfall",
+        "ashfalls",
+        "ashfalled"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "ejecta",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/B_Horizon",
+      "label": "b horizon",
+      "keywords": [
+        "b horizon",
+        "b horizons",
+        "b horizoned",
+        "b",
+        "horizon"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Basalt",
+      "label": "basalt",
+      "keywords": [
+        "basalt",
+        "basalts",
+        "basalted"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "extrusive rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Bentonite",
+      "label": "bentonite",
+      "keywords": [
+        "bentonite",
+        "bentoniting",
+        "bentonites",
+        "bentoniteed"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "clay",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Block",
+      "label": "block",
+      "keywords": [
+        "block",
+        "blocks",
+        "blocked"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "ejecta",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Bomb",
+      "label": "bomb",
+      "keywords": [
+        "bomb",
+        "bombs",
+        "bombed"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "ejecta",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Boulder",
+      "label": "boulder",
+      "keywords": [
+        "boulder",
+        "boulders",
+        "bouldered"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/Breccia",
+      "label": "breccia",
+      "keywords": [
+        "breccia",
+        "breccias",
+        "brecciaed"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/C_Horizon",
+      "label": "c horizon",
+      "keywords": [
+        "c horizon",
+        "c horizons",
+        "c horizoned",
+        "c",
+        "horizon"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/Chondrite",
+      "label": "chondrite",
+      "keywords": [
+        "chondrite",
+        "chondriting",
+        "chondrites",
+        "chondriteed"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "meteorite",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/CinderCone",
+      "label": "cinder cone",
+      "keywords": [
+        "cinder cone",
+        "cinder coning",
+        "cinder cones",
+        "cinder coneed",
+        "cinder",
+        "cone"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic cone",
+      "depth": 5,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Clast",
+      "label": "clast",
+      "keywords": [
+        "clast",
+        "clasts",
+        "clasted"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Clay",
+      "label": "clay",
+      "keywords": [
+        "clay",
+        "clays",
+        "clayed",
+        "clayey",
+        "cohesive",
+        "cohesive soil",
+        "fine grained"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Cobble",
+      "label": "cobble",
+      "keywords": [
+        "cobble",
+        "cobbling",
+        "cobbles",
+        "cobbleed"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Colluvium",
+      "label": "colluvium",
+      "keywords": [
+        "colluvium",
+        "colluviums",
+        "colluviumed"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/CompositeCone",
+      "label": "composite cone",
+      "keywords": [
+        "composite cone",
+        "composite coning",
+        "composite cones",
+        "composite coneed",
+        "composite",
+        "cone"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic cone",
+      "depth": 5,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Cryosol",
+      "label": "cryosol",
+      "keywords": [
+        "cryosol",
+        "cryosols",
+        "cryosoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Dacite",
+      "label": "dacite",
+      "keywords": [
+        "dacite",
+        "daciting",
+        "dacites",
+        "daciteed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic rock",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Debris",
+      "label": "debris",
+      "keywords": [
+        "debris",
+        "debriss",
+        "debrised"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/DebrisAvalanche",
+      "label": "debris avalanche",
+      "keywords": [
+        "debris avalanche",
+        "debris avalanching",
+        "debris avalanches",
+        "debris avalancheed",
+        "debris",
+        "avalanche"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "debris flow",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/DebrisFlow",
+      "label": "debris flow",
+      "keywords": [
+        "debris flow",
+        "debris flows",
+        "debris flowed",
+        "debris",
+        "flow"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "mixture",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/DrillingMud",
+      "label": "drilling mud",
+      "keywords": [
+        "drilling mud",
+        "drilling muds",
+        "drilling muded",
+        "drilling",
+        "mud"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "mud",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Ejecta",
+      "label": "ejecta",
+      "keywords": [
+        "ejecta",
+        "ejectas",
+        "ejectaed"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "mixture",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Entisol",
+      "label": "entisol",
+      "keywords": [
+        "entisol",
+        "entisols",
+        "entisoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil order",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/ExtrusiveRock",
+      "label": "extrusive rock",
+      "keywords": [
+        "extrusive rock",
+        "extrusive rocks",
+        "extrusive rocked",
+        "extrusive",
+        "rock"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "igneous rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Felsic",
+      "label": "felsic",
+      "keywords": [
+        "felsic",
+        "felsics",
+        "felsiced"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "igneous rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/Fossil",
+      "label": "fossil",
+      "keywords": [
+        "fossil",
+        "fossils",
+        "fossiled"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "substanceform",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Gelisol",
+      "label": "gelisol",
+      "keywords": [
+        "gelisol",
+        "gelisols",
+        "gelisoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil order",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Gibber",
+      "label": "gibber",
+      "keywords": [
+        "gibber",
+        "gibbers",
+        "gibbered"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Granule",
+      "label": "granule",
+      "keywords": [
+        "granule",
+        "granuling",
+        "granules",
+        "granuleed"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "gravel",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Gravel",
+      "label": "gravel",
+      "keywords": [
+        "gravel",
+        "gravels",
+        "graveled",
+        "gravelly",
+        "coarse",
+        "cobbles"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Ground",
+      "label": "ground",
+      "keywords": [
+        "ground",
+        "grounds",
+        "grounded"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/HeterogenousRock",
+      "label": "heterogenous rock",
+      "keywords": [
+        "heterogenous rock",
+        "heterogenous rocks",
+        "heterogenous rocked",
+        "heterogenous",
+        "rock"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "sedimentary rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Histisol",
+      "label": "histisol",
+      "keywords": [
+        "histisol",
+        "histisols",
+        "histisoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil order",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/HydrogenousSediment",
+      "label": "hydrogenous sediment",
+      "keywords": [
+        "hydrogenous sediment",
+        "hydrogenous sediments",
+        "hydrogenous sedimented",
+        "hydrogenous",
+        "sediment"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Hypabyssal",
+      "label": "hypabyssal",
+      "keywords": [
+        "hypabyssal",
+        "hypabyssals",
+        "hypabyssaled"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "igneous rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Hypoclastite",
+      "label": "hypoclastite",
+      "keywords": [
+        "hypoclastite",
+        "hypoclastiting",
+        "hypoclastites",
+        "hypoclastiteed"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic deposit",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/IgneousRock",
+      "label": "igneous rock",
+      "keywords": [
+        "igneous rock",
+        "igneous rocks",
+        "igneous rocked",
+        "igneous",
+        "rock"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "rock",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Inceptisol",
+      "label": "inceptisol",
+      "keywords": [
+        "inceptisol",
+        "inceptisols",
+        "inceptisoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil order",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/IntrusiveRock",
+      "label": "intrusive rock",
+      "keywords": [
+        "intrusive rock",
+        "intrusive rocks",
+        "intrusive rocked",
+        "intrusive",
+        "rock"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "igneous rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Kimberlite",
+      "label": "kimberlite",
+      "keywords": [
+        "kimberlite",
+        "kimberliting",
+        "kimberlites",
+        "kimberliteed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "igneous rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Lahar",
+      "label": "lahar",
+      "keywords": [
+        "lahar",
+        "lahars",
+        "lahared"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "mudflow",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Lava",
+      "label": "lava",
+      "keywords": [
+        "lava",
+        "lavas",
+        "lavaed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "extrusive rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Loam",
+      "label": "loam",
+      "keywords": [
+        "loam",
+        "loams",
+        "loamed"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Loess",
+      "label": "loess",
+      "keywords": [
+        "loess",
+        "loesss",
+        "loessed"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/Macrofossil",
+      "label": "macrofossil",
+      "keywords": [
+        "macrofossil",
+        "macrofossils",
+        "macrofossiled"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "fossil",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Mafic",
+      "label": "mafic",
+      "keywords": [
+        "mafic",
+        "mafics",
+        "maficed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "igneous rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Magma",
+      "label": "magma",
+      "keywords": [
+        "magma",
+        "magmas",
+        "magmaed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic rock",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/MarineSediment",
+      "label": "marine sediment",
+      "keywords": [
+        "marine sediment",
+        "marine sediments",
+        "marine sedimented",
+        "marine",
+        "sediment"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/Melange",
+      "label": "melange",
+      "keywords": [
+        "melange",
+        "melanging",
+        "melanges",
+        "melangeed"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/MetamorphicRock",
+      "label": "metamorphic rock",
+      "keywords": [
+        "metamorphic rock",
+        "metamorphic rocks",
+        "metamorphic rocked",
+        "metamorphic",
+        "rock"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/Meteor",
+      "label": "meteor",
+      "keywords": [
+        "meteor",
+        "meteors",
+        "meteored"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/Meteorite",
+      "label": "meteorite",
+      "keywords": [
+        "meteorite",
+        "meteoriting",
+        "meteorites",
+        "meteoriteed"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "meteor",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/Microfossil",
+      "label": "microfossil",
+      "keywords": [
+        "microfossil",
+        "microfossils",
+        "microfossiled"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "fossil",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/Molasse",
+      "label": "molasse",
+      "keywords": [
+        "molasse",
+        "molassing",
+        "molasses",
+        "molasseed"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "sedimentary",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Mollisol",
+      "label": "mollisol",
+      "keywords": [
+        "mollisol",
+        "mollisols",
+        "mollisoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil order",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Mud",
+      "label": "mud",
+      "keywords": [
+        "mud",
+        "muds",
+        "muded"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Mudflow",
+      "label": "mudflow",
+      "keywords": [
+        "mudflow",
+        "mudflows",
+        "mudflowed"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "debris flow",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/O_Horizon",
+      "label": "o horizon",
+      "keywords": [
+        "o horizon",
+        "o horizons",
+        "o horizoned",
+        "o",
+        "horizon"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Obsidian",
+      "label": "obsidian",
+      "keywords": [
+        "obsidian",
+        "obsidians",
+        "obsidianed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "extrusive rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/OrganicMatter",
+      "label": "organic matter",
+      "keywords": [
+        "organic matter",
+        "organic matters",
+        "organic mattered",
+        "organic",
+        "matter"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Oxisol",
+      "label": "oxisol",
+      "keywords": [
+        "oxisol",
+        "oxisols",
+        "oxisoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil order",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/P_Horizon",
+      "label": "p horizon",
+      "keywords": [
+        "p horizon",
+        "p horizons",
+        "p horizoned",
+        "p",
+        "horizon"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Pahoehoe",
+      "label": "pahoehoe",
+      "keywords": [
+        "pahoehoe",
+        "pahoehoing",
+        "pahoehoes",
+        "pahoehoeed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "extrusive rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Paleosol",
+      "label": "paleosol",
+      "keywords": [
+        "paleosol",
+        "paleosols",
+        "paleosoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil order",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/ParentRock",
+      "label": "parent rock",
+      "keywords": [
+        "parent rock",
+        "parent rocks",
+        "parent rocked",
+        "parent",
+        "rock"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Peat",
+      "label": "peat",
+      "keywords": [
+        "peat",
+        "peats",
+        "peated",
+        "peaty",
+        "organic",
+        "highly organic",
+        "boggy"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Pebble",
+      "label": "pebble",
+      "keywords": [
+        "pebble",
+        "pebbling",
+        "pebbles",
+        "pebbleed"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "gravel",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Peridotite",
+      "label": "peridotite",
+      "keywords": [
+        "peridotite",
+        "peridotiting",
+        "peridotites",
+        "peridotiteed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "igneous rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Permafrost",
+      "label": "permafrost",
+      "keywords": [
+        "permafrost",
+        "permafrosts",
+        "permafrosted"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/PillowLava",
+      "label": "pillow lava",
+      "keywords": [
+        "pillow lava",
+        "pillow lavas",
+        "pillow lavaed",
+        "pillow",
+        "lava"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "extrusive rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Pluton",
+      "label": "pluton",
+      "keywords": [
+        "pluton",
+        "plutons",
+        "plutoned"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "intrusive rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/PlutonicRock",
+      "label": "plutonic rock",
+      "keywords": [
+        "plutonic rock",
+        "plutonic rocks",
+        "plutonic rocked",
+        "plutonic",
+        "rock"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Pumice",
+      "label": "pumice",
+      "keywords": [
+        "pumice",
+        "pumicing",
+        "pumices",
+        "pumiceed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic rock",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Pyroclastic",
+      "label": "pyroclastic",
+      "keywords": [
+        "pyroclastic",
+        "pyroclastics",
+        "pyroclasticed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "extrusive rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/Regolith",
+      "label": "regolith",
+      "keywords": [
+        "regolith",
+        "regoliths",
+        "regolithed"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "mixture",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Rhyolite",
+      "label": "rhyolite",
+      "keywords": [
+        "rhyolite",
+        "rhyoliting",
+        "rhyolites",
+        "rhyoliteed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic rock",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/Rock",
+      "label": "rock",
+      "keywords": [
+        "rock",
+        "rocks",
+        "rocked"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "mixture",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/RockBody",
+      "label": "rock body",
+      "keywords": [
+        "rock body",
+        "rock bodys",
+        "rock bodyed",
+        "rock",
+        "body"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "mixture",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Sand",
+      "label": "sand",
+      "keywords": [
+        "sand",
+        "sands",
+        "sanded",
+        "sandy",
+        "granular",
+        "loose sand",
+        "coarse grained"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Sediment",
+      "label": "sediment",
+      "keywords": [
+        "sediment",
+        "sediments",
+        "sedimented"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "mixture",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/SedimentaryRock",
+      "label": "sedimentary rock",
+      "keywords": [
+        "sedimentary rock",
+        "sedimentary rocks",
+        "sedimentary rocked",
+        "sedimentary",
+        "rock"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "rock",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/Serpentinite",
+      "label": "serpentinite",
+      "keywords": [
+        "serpentinite",
+        "serpentiniting",
+        "serpentinites",
+        "serpentiniteed"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "metamorphic rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRock/Serpentinization",
+      "label": "serpentinization",
+      "keywords": [
+        "serpentinization",
+        "serpentinizations",
+        "serpentinizationed"
+      ],
+      "module": "matrRock",
+      "category": "Stratigraphy",
+      "parent_label": "metamorphic",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Silt",
+      "label": "silt",
+      "keywords": [
+        "silt",
+        "silts",
+        "silted"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Soil",
+      "label": "soil",
+      "keywords": [
+        "soil",
+        "soils",
+        "soiled"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/SoilHorizon",
+      "label": "soil horizon",
+      "keywords": [
+        "soil horizon",
+        "soil horizons",
+        "soil horizoned",
+        "soil",
+        "horizon"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/SoilLayer",
+      "label": "soil layer",
+      "keywords": [
+        "soil layer",
+        "soil layers",
+        "soil layered",
+        "soil",
+        "layer"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "planetarylayer",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/SoilOrder",
+      "label": "soil order",
+      "keywords": [
+        "soil order",
+        "soil orders",
+        "soil ordered",
+        "soil",
+        "order"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "classification",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/SpatterCone",
+      "label": "spatter cone",
+      "keywords": [
+        "spatter cone",
+        "spatter coning",
+        "spatter cones",
+        "spatter coneed",
+        "spatter",
+        "cone"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic rock",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Spodosol",
+      "label": "spodosol",
+      "keywords": [
+        "spodosol",
+        "spodosols",
+        "spodosoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil order",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Subsoil",
+      "label": "subsoil",
+      "keywords": [
+        "subsoil",
+        "subsoils",
+        "subsoiled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Substrata",
+      "label": "substrata",
+      "keywords": [
+        "substrata",
+        "substratas",
+        "substrataed"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Substratum",
+      "label": "substratum",
+      "keywords": [
+        "substratum",
+        "substratums",
+        "substratumed"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/SurfaceSoil",
+      "label": "surface soil",
+      "keywords": [
+        "surface soil",
+        "surface soils",
+        "surface soiled",
+        "surface",
+        "soil"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "",
+      "depth": 0,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Talik",
+      "label": "talik",
+      "keywords": [
+        "talik",
+        "taliks",
+        "taliked"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Tephra",
+      "label": "tephra",
+      "keywords": [
+        "tephra",
+        "tephras",
+        "tephraed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "extrusive rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/TerrigenousSediment",
+      "label": "terrigenous sediment",
+      "keywords": [
+        "terrigenous sediment",
+        "terrigenous sediments",
+        "terrigenous sedimented",
+        "terrigenous",
+        "sediment"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Topsoil",
+      "label": "topsoil",
+      "keywords": [
+        "topsoil",
+        "topsoils",
+        "topsoiled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil layer",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Trachyandesite",
+      "label": "trachyandesite",
+      "keywords": [
+        "trachyandesite",
+        "trachyandesiting",
+        "trachyandesites",
+        "trachyandesiteed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic rock",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Trachybasalt",
+      "label": "trachybasalt",
+      "keywords": [
+        "trachybasalt",
+        "trachybasalts",
+        "trachybasalted"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic rock",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Trachyte",
+      "label": "trachyte",
+      "keywords": [
+        "trachyte",
+        "trachyting",
+        "trachytes",
+        "trachyteed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic rock",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Tuff",
+      "label": "tuff",
+      "keywords": [
+        "tuff",
+        "tuffs",
+        "tuffed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "pyroclastic",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/TuffCone",
+      "label": "tuff cone",
+      "keywords": [
+        "tuff cone",
+        "tuff coning",
+        "tuff cones",
+        "tuff coneed",
+        "tuff",
+        "cone"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic cone",
+      "depth": 5,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/TuffRing",
+      "label": "tuff ring",
+      "keywords": [
+        "tuff ring",
+        "tuff rings",
+        "tuff ringed",
+        "tuff",
+        "ring"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic rock",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Ultisol",
+      "label": "ultisol",
+      "keywords": [
+        "ultisol",
+        "ultisols",
+        "ultisoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil order",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Ultramaphic",
+      "label": "ultramaphic",
+      "keywords": [
+        "ultramaphic",
+        "ultramaphics",
+        "ultramaphiced"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "extrusive rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/Varve",
+      "label": "varve",
+      "keywords": [
+        "varve",
+        "varving",
+        "varves",
+        "varveed"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "sediment",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/realmSoil/Vertisol",
+      "label": "vertisol",
+      "keywords": [
+        "vertisol",
+        "vertisols",
+        "vertisoled"
+      ],
+      "module": "realmSoil",
+      "category": "Stratigraphy",
+      "parent_label": "soil order",
+      "depth": 2,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/VolcanicCone",
+      "label": "volcanic cone",
+      "keywords": [
+        "volcanic cone",
+        "volcanic coning",
+        "volcanic cones",
+        "volcanic coneed",
+        "volcanic",
+        "cone"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic rock",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrSediment/VolcanicDeposit",
+      "label": "volcanic deposit",
+      "keywords": [
+        "volcanic deposit",
+        "volcanic deposits",
+        "volcanic deposited",
+        "volcanic",
+        "deposit"
+      ],
+      "module": "matrSediment",
+      "category": "Stratigraphy",
+      "parent_label": "substance",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/VolcanicNeck",
+      "label": "volcanic neck",
+      "keywords": [
+        "volcanic neck",
+        "volcanic necks",
+        "volcanic necked",
+        "volcanic",
+        "neck"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "volcanic rock",
+      "depth": 4,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/VolcanicRock",
+      "label": "volcanic rock",
+      "keywords": [
+        "volcanic rock",
+        "volcanic rocks",
+        "volcanic rocked",
+        "volcanic",
+        "rock"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "extrusive rock",
+      "depth": 3,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Xenocryst",
+      "label": "xenocryst",
+      "keywords": [
+        "xenocryst",
+        "xenocrysts",
+        "xenocrysted"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "mixture",
+      "depth": 1,
+      "comment": ""
+    },
+    {
+      "uri": "http://sweetontology.net/matrRockIgneous/Xenolith",
+      "label": "xenolith",
+      "keywords": [
+        "xenolith",
+        "xenoliths",
+        "xenolithed"
+      ],
+      "module": "matrRockIgneous",
+      "category": "Stratigraphy",
+      "parent_label": "rock",
+      "depth": 1,
+      "comment": ""
+    }
+  ]
+}
