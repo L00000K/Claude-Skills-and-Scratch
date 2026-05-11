@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sizewell C Geological Conceptual Model — Interactive GUI for exploring the SZC geology, hydrogeology, geohazards and ground conditions database following the Fookes model framework.">
+  <title>SZC Geological Conceptual Model</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ── TOP NAVIGATION BAR ── -->
+  <nav class="topbar">
+    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="topbar-logo">
+      <div class="logo-icon" aria-hidden="true">⬡</div>
+      <div>
+        <div class="topbar-title">SZC Geological Conceptual Model</div>
+        <div class="topbar-subtitle">Sizewell C &bull; Suffolk, UK &bull; 52.2143°N 1.6197°E</div>
+      </div>
+    </div>
+    <div class="topbar-spacer"></div>
+    <div class="topbar-badge">STAGE 1 — CONCEPTUAL</div>
+  </nav>
+
+  <!-- ── LAYOUT WRAPPER ── -->
+  <div class="layout">
+
+    <!-- ── SIDEBAR ── -->
+    <aside class="sidebar" role="navigation" aria-label="Section navigation">
+      <!-- Nav items injected by app.js -->
+    </aside>
+
+    <!-- ── MOBILE OVERLAY ── -->
+    <div class="sidebar-overlay" role="presentation"></div>
+
+    <!-- ── MAIN CONTENT ── -->
+    <main class="content" id="app" role="main">
+
+      <!-- 1. OVERVIEW -->
+      <section class="section active" id="section-overview" aria-label="Overview">
+        <!-- Built by buildOverview() in app.js -->
+      </section>
+
+      <!-- 2. STRATIGRAPHY -->
+      <section class="section" id="section-stratigraphy" aria-label="Stratigraphic Column">
+        <!-- Built by buildStratigraphy() in app.js -->
+      </section>
+
+      <!-- 3. HYDROGEOLOGY -->
+      <section class="section" id="section-hydro" aria-label="Hydrogeological Model">
+        <!-- Built by buildHydro() in app.js -->
+      </section>
+
+      <!-- 4. HAZARDS -->
+      <section class="section" id="section-hazards" aria-label="Geohazard Screening">
+        <!-- Built by buildHazards() in app.js -->
+      </section>
+
+      <!-- 5. CONDITIONS DATABASE -->
+      <section class="section" id="section-conditions" aria-label="Conditions Database">
+        <!-- Built by buildConditions() in app.js -->
+      </section>
+
+      <!-- 6. RECOMMENDATIONS -->
+      <section class="section" id="section-recommendations" aria-label="GI Recommendations">
+        <!-- Built by buildRecommendations() in app.js -->
+      </section>
+
+      <!-- 7. UNCERTAINTIES -->
+      <section class="section" id="section-uncertainties" aria-label="Uncertainty Register">
+        <!-- Built by buildUncertainties() in app.js -->
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ── DATA MODULE (must load before app.js) ── -->
+  <script src="js/szc_data.js"></script>
+  <!-- ── APPLICATION LOGIC ── -->
+  <script src="js/app.js"></script>
+
+</body>
+</html>
