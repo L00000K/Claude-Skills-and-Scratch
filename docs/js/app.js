@@ -1,4 +1,4 @@
-/* SZC Geological Conceptual Model — Application Logic
+/* Site X Geological Conceptual Model — Application Logic
    Pure vanilla JS, no dependencies, no fetch(), GitHub Pages compatible
 */
 
@@ -119,7 +119,7 @@
     sec.innerHTML = `
       <div class="section-header">
         <h1>Geological Conceptual Model</h1>
-        <p>Sizewell C Nuclear Power Station — Suffolk, UK &nbsp;|&nbsp; Fookes Model Framework</p>
+        <p>Site X &nbsp;|&nbsp; Fookes Model Framework</p>
       </div>
 
       <div class="overview-grid mb-24">
@@ -391,7 +391,7 @@
     sec.innerHTML = `
       <div class="section-header">
         <h1>Hydrogeological Model</h1>
-        <p>Aquifer units, hydraulic properties, and groundwater conditions at Sizewell C</p>
+        <p>Aquifer units, hydraulic properties, and groundwater conditions at Site X</p>
       </div>
 
       <div class="hydro-schematic mb-24">
@@ -471,7 +471,7 @@
     sec.innerHTML = `
       <div class="section-header">
         <h1>Geohazard Screening</h1>
-        <p>All hazards screened against the SZC site conditions following the Fookes model framework</p>
+        <p>All hazards screened against the site conditions following the Fookes model framework</p>
       </div>
 
       <div class="filter-bar">
@@ -592,7 +592,7 @@
     sec.innerHTML = `
       <div class="section-header">
         <h1>Conditions Database</h1>
-        <p>${D.conditions.length} conditions catalogued — searchable, filterable reference for the SZC geological model</p>
+        <p>${D.conditions.length} conditions catalogued — searchable, filterable reference for the geological model</p>
       </div>
 
       <div class="search-filter-bar">
@@ -745,7 +745,7 @@
     sec.innerHTML = `
       <div class="section-header">
         <h1>Uncertainty Register</h1>
-        <p>${D.uncertainties.length} identified uncertainties in the SZC geological conceptual model — with confidence ratings and resolution actions</p>
+        <p>${D.uncertainties.length} identified uncertainties in the geological conceptual model — with confidence ratings and resolution actions</p>
       </div>
 
       <div class="uncertainty-table-wrapper">
@@ -906,11 +906,11 @@ Notes: Significant palaeochannel feature suspected between 2.50–4.00m. Liquefa
         <button class="btn-icon" id="mm-reset" title="Reset view">⌂</button>
         <button class="btn-icon" id="mm-export" title="Export PNG">↓ PNG</button>
         <span class="mm-legend">
-          <span class="mm-dot" style="background:#4a9eff"></span> Site
-          <span class="mm-dot" style="background:#7c5ce9"></span> Category
-          <span class="mm-dot" style="background:#2ecc71"></span> High match
-          <span class="mm-dot" style="background:#f39c12"></span> Medium match
-          <span class="mm-dot" style="background:#6b7280"></span> SWEET concept
+          <span class="mm-dot" style="background:#003087"></span> Site
+          <span class="mm-dot" style="background:#E87722"></span> Category
+          <span class="mm-dot" style="background:#1a7340"></span> High match
+          <span class="mm-dot" style="background:#b45309"></span> Medium match
+          <span class="mm-dot" style="background:#64748b"></span> SWEET concept
         </span>
       </div>
       <div id="mindmap-container">
